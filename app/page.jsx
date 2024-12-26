@@ -81,7 +81,7 @@ export default function Home() {
 
               <div className="text-center lg:text-left tracking-wider">
                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-3xl lg:text-4xl underline-left">An tâm cùng Đối tác DiCar</h2>
-                <p className="mt-6 text-base text-gray-500">Chúng tôi không chỉ kiểm tra, chúng tôi mang đến sự an tâm!" DiCar tin rằng, mỗi giao dịch không chỉ là mua bán, mà còn là sự trao đổi của niềm tin và giá trị thực. Hãy để chúng tôi đồng hành cùng bạn, để mỗi hành trình đều bắt đầu bằng sự an tâm tuyệt đối!</p>
+                <p className="mt-6 text-base text-gray-500">Chúng tôi không chỉ kiểm tra, chúng tôi mang đến sự an tâm! &quot;DiCar tin rằng, mỗi giao dịch không chỉ là mua bán, mà còn là sự trao đổi của niềm tin và giá trị thực. Hãy để chúng tôi đồng hành cùng bạn, để mỗi hành trình đều bắt đầu bằng sự an tâm tuyệt đối&quot;</p>
               </div>
             </div>
           </div>
