@@ -3,7 +3,7 @@ import { useState } from "react";
 import { inspectionData, tabImages } from "../constants";
 
 export default function Header() {
-    const [selectedTab, setSelectedTab] = useState('Nội thất');
+    const [selectedTab, setSelectedTab] = useState('Ngoại thất');
     const handleSelect = (tab) => {
         setSelectedTab(tab);
     };
@@ -95,7 +95,7 @@ export default function Header() {
                                             <ul key={item.STT} className="">
                                                 <li className="border-b bg-[rgb(15,101,35)]">
                                                     <div className="flex items-center">
-                                                        <div className="flex-shrink-0 border-r border-l px-4 py-3">
+                                                        <div className="flex-shrink-0 border-r px-4 py-3">
                                                             <p className="text-sm  truncate dark:text-white text-center">
                                                                 {item.STT}
                                                             </p>
@@ -120,8 +120,8 @@ export default function Header() {
                                             <ul key={item.STT} className="">
                                                 <li className="border-b text-sm font-bold bg-[rgb(15,101,35)]">
                                                     <div className="flex items-center">
-                                                        <div className="flex-shrink-0 border-r border-l px-4 py-3">
-                                                            <p className="text-sm   truncate dark:text-white text-center">
+                                                        <div className="flex-shrink-0 border-r  px-4 py-3">
+                                                            <p className="text-sm truncate dark:text-white text-center">
                                                                 {item.STT}
                                                             </p>
                                                         </div>

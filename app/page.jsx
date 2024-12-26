@@ -59,7 +59,7 @@ export default function Home() {
                 <h2 className="text-4xl font-bold text-gray-900 mb-4 underline-left">An toàn mua xe cùng với chúng tôi</h2>
 
                 <p className="text-base mb-6 text-gray-500 tracking-wider">Quy trình kiểm tra 175 điểm của chúng tôi tuân thủ nghiêm ngặt các tiêu chuẩn, đảm bảo loại trừ xe từng gặp tai nạn lớn hoặc hư hỏng do ngập nước. Mọi chiếc xe đều được đánh giá kỹ lưỡng để đáp ứng đầy đủ yêu cầu an toàn và chất lượng.</p>
-                <a href="#" className="flex items-center text-[rgb(15,101,35)] font-bold">
+                <a href="/inspection-list" className="flex items-center text-[rgb(15,101,35)] font-bold">
                   Xem danh sách kiểm tra xe
                   <img src="./send.svg" className="h-6 w-6 ml-2" />
                 </a>
